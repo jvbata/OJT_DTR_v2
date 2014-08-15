@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:layout_marginTop="15dp">
+
+    <TableRow
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:background="@drawable/table_border" >
+        
+        <TextView
+            android:id="@+id/historydateitem"
+                android:layout_weight=".25"
+                android:layout_width="98dp"
+                android:background="@drawable/table_border" 
+                android:gravity="center"
+                android:padding="13dip"
+                android:text="2014-07-15"
+                android:textSize="20sp"
+                android:textColor="#000000" />
+        <TextView
+            android:id="@+id/historytimeinitem"
+                android:layout_weight=".25"
+                android:layout_width="113dp"
+                android:textSize="20sp"
+                android:background="@drawable/table_border" 
+                android:gravity="center"
+                android:padding="13dip"
+                android:text="07:40:33 AM"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/historytimeoutitem"
+                android:layout_weight=".25"
+                android:layout_width="113dp"
+                android:textSize="20sp"
+                android:background="@drawable/table_border" 
+                android:gravity="center"
+                android:padding="14dip"
+                android:text="07:41:39 AM"
+                android:textColor="#000000" />
+            <ImageView
+                android:id="@+id/gpsimage"
+                android:layout_height="35dp"
+                android:layout_width="44dp"
+                android:layout_weight=".25"
+                android:src="@drawable/gps_press"
+                android:layout_gravity="center"
+                />
+               
+    </TableRow>
+    
+   </TableLayout>
