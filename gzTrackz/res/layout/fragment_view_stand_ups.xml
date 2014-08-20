@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ViewStandupActivity" >
+
+    <TextView
+        android:id="@+id/viewstandups_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/viewstandups_sample_date"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/viewstandups_time"
+        android:layout_toRightOf="@id/viewstandups_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="88dp"
+        android:text="@string/viewstandups_sample_time"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tv_viewstandup_heading_previoustask"
+        android:layout_below="@id/viewstandups_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/viewstandups_previoustask_heading"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_viewstandup_text_previoustask"
+        android:layout_below="@id/tv_viewstandup_heading_previoustask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="@string/viewstandups_sample_text"
+        android:textSize="17sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tv_viewstandups_heading_todo"
+        android:layout_below="@id/tv_viewstandup_text_previoustask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/viewstandups_heading_currenttask"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_viewstandup_text_todo"
+        android:layout_below="@id/tv_viewstandups_heading_todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="@string/viewstandups_sample_text"
+        android:textSize="17sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tv_viewstandup_heading_problems"
+        android:layout_below="@id/tv_viewstandup_text_todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/viewstandups_heading_problemsencountered"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_viewstandup_text_problems"
+        android:layout_below="@id/tv_viewstandup_heading_problems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="@string/viewstandups_sample_text"
+        android:textSize="17sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
