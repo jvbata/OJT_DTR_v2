@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_registerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".RegisterActivity" >
+
+    <TextView
+        android:id="@+id/tv_firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_spacing"
+        android:text="@string/register_firstname_text"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/et_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/tv_firstname"
+        android:layout_marginBottom="@dimen/layout_spacing"
+        android:layout_marginLeft="@dimen/layout_spacing"
+        android:layout_marginRight="@dimen/layout_spacing"
+        android:inputType="textPersonName"
+        android:textSize="12sp" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv_lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_firstname"
+        android:layout_marginBottom="@dimen/layout_spacing"
+        android:layout_marginLeft="@dimen/layout_spacing"
+        android:layout_marginRight="@dimen/layout_spacing"
+        android:text="@string/register_lastname_text"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/et_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/tv_lastname"
+        android:layout_marginBottom="@dimen/layout_spacing"
+        android:layout_marginLeft="@dimen/layout_spacing"
+        android:layout_marginRight="@dimen/layout_spacing"
+      	android:inputType="textPersonName"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_registerEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_lastname"
+        android:layout_marginBottom="@dimen/layout_spacing"
+        android:layout_marginLeft="@dimen/layout_spacing"
+        android:layout_marginRight="@dimen/layout_spacing"
+        android:text="@string/register_email_text"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/et_registerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/tv_registerEmail"
+        android:layout_marginBottom="@dimen/layout_spacing"
+        android:layout_marginLeft="@dimen/layout_spacing"
+        android:layout_marginRight="@dimen/layout_spacing"
+        android:inputType="textEmailAddress"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_standupPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_registerEmail"
+        android:layout_marginBottom="@dimen/layout_spacing"
+        android:layout_marginLeft="@dimen/layout_spacing"
+        android:layout_marginRight="@dimen/layout_spacing"
+        android:text="@string/register_password_text"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/et_registerPassword"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/tv_standupPrevious"
+        android:layout_marginBottom="@dimen/layout_spacing"
+        android:layout_marginLeft="@dimen/layout_spacing"
+        android:layout_marginRight="@dimen/layout_spacing"
+        android:inputType="textPassword"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_confirmPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_registerPassword"
+        android:layout_marginBottom="@dimen/layout_spacing"
+        android:layout_marginLeft="@dimen/layout_spacing"
+        android:layout_marginRight="@dimen/layout_spacing"
+        android:text="@string/register_confirmpassword_text"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/et_confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/tv_confirmPassword"
+        android:layout_marginBottom="@dimen/layout_spacing"
+        android:layout_marginLeft="@dimen/layout_spacing"
+        android:layout_marginRight="@dimen/layout_spacing"
+        android:inputType="textPassword"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/et_confirmPassword"
+        android:layout_marginBottom="@dimen/layout_spacing"
+        android:layout_marginLeft="@dimen/layout_spacing"
+        android:layout_marginRight="@dimen/layout_spacing"
+        android:background="@drawable/loginbuttonstyle"
+        android:text="@string/register_registerbutton_text"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+</RelativeLayout>
