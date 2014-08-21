@@ -43,26 +43,27 @@
         android:layout_below="@id/et_password"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:text="@string/login_register_text"
         android:clickable="true"
         android:onClick="buttonClicked"
-        android:textSize="24sp" />
+        android:text="@string/login_register_text"
+        android:textColor="#000000"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/btn_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_below="@id/et_password"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_toRightOf="@id/tv_registerBtn"
         android:layout_toEndOf="@id/tv_registerBtn"
-        android:text="@string/login_login_text"
-        android:textColor="#ffffff"
+        android:layout_toRightOf="@id/tv_registerBtn"
         android:onClick="buttonClicked"
-        android:textSize="24sp" />
+        android:text="@string/btn_login_text"
+        android:textColor="#000000"
+        android:textSize="16sp" />
 
     <ImageView
         android:id="@+id/iv_poweredby"

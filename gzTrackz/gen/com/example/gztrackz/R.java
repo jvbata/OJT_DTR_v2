@@ -37,23 +37,24 @@ public final class R {
         public static final int button=0x7f020005;
         public static final int buttonstyle=0x7f020006;
         public static final int gps_press=0x7f020007;
-        public static final int gz=0x7f020008;
-        public static final int gz1=0x7f020009;
-        public static final int ic_lancher=0x7f02000a;
-        public static final int ic_launcher=0x7f02000b;
-        public static final int ic_location_found_pressed=0x7f02000c;
-        public static final int ic_location_found_unpressed=0x7f02000d;
-        public static final int inactivetimein=0x7f02000e;
-        public static final int inactivetimeout=0x7f02000f;
-        public static final int loginbuttonstyle=0x7f020010;
-        public static final int logoedit3=0x7f020011;
-        public static final int powered=0x7f020012;
-        public static final int rectangle=0x7f020013;
-        public static final int roundbuttonstyle=0x7f020014;
-        public static final int standups_listview_shape=0x7f020015;
-        public static final int table_border=0x7f020016;
-        public static final int table_border_header=0x7f020017;
-        public static final int yellow=0x7f020018;
+        public static final int gradient=0x7f020008;
+        public static final int gz=0x7f020009;
+        public static final int gz1=0x7f02000a;
+        public static final int ic_lancher=0x7f02000b;
+        public static final int ic_launcher=0x7f02000c;
+        public static final int ic_location_found_pressed=0x7f02000d;
+        public static final int ic_location_found_unpressed=0x7f02000e;
+        public static final int inactivetimein=0x7f02000f;
+        public static final int inactivetimeout=0x7f020010;
+        public static final int loginbuttonstyle=0x7f020011;
+        public static final int logoedit3=0x7f020012;
+        public static final int powered=0x7f020013;
+        public static final int rectangle=0x7f020014;
+        public static final int roundbuttonstyle=0x7f020015;
+        public static final int standups_listview_shape=0x7f020016;
+        public static final int table_border=0x7f020017;
+        public static final int table_border_header=0x7f020018;
+        public static final int yellow=0x7f020019;
     }
     public static final class id {
         public static final int action_logout=0x7f0b003a;
@@ -144,9 +145,9 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f080001;
         public static final int app_name=0x7f080000;
+        public static final int btn_login_text=0x7f08000f;
         public static final int login_email_hint=0x7f08000c;
         public static final int login_gzlogo_description=0x7f08000a;
-        public static final int login_login_text=0x7f08000f;
         public static final int login_password_hint=0x7f08000d;
         public static final int login_poweredby_description=0x7f08000b;
         public static final int login_register_text=0x7f08000e;
