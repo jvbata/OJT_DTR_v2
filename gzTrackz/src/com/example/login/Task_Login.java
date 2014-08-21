@@ -91,8 +91,7 @@ public class Task_Login extends AsyncTask<String, Void, Boolean> {
 			progressDialog.dismiss();
 		}
 		
-		Activity_Login loginActivity = (Activity_Login) context;
-		loginActivity.performLoginBasedOnResult(result);
+		((Activity_Login) context).performLoginBasedOnResult(result);
 		
 	}
 

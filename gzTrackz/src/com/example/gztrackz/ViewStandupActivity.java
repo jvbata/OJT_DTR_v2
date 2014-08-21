@@ -8,13 +8,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.login.ClickListeners;
-
 public class ViewStandupActivity extends Activity {
 
 	private TextView date,time,past,current,problems;
 	private TextView clickPrevious,clickNow,clickProblems;
-	private ClickListeners clickListener;
+	
 	private boolean isPreviousClicked,isNowClicked,isProblemsClicked;
 	private Context context;
 	@Override
@@ -104,7 +102,6 @@ public class ViewStandupActivity extends Activity {
 		clickNow = (TextView) findViewById(R.id.tv_viewstandups_heading_todo);
 		clickProblems = (TextView) findViewById(R.id.tv_viewstandup_heading_problems);
 		
-		clickListener = new ClickListeners(context);
 	}
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {

@@ -3,8 +3,7 @@
     android:id="@+id/rl_registerlayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
-    tools:context=".RegisterActivity" >
+    tools:context=".Activity_Register" >
 
     <TextView
         android:id="@+id/tv_firstname"
@@ -125,6 +124,7 @@
         android:background="@drawable/loginbuttonstyle"
         android:text="@string/register_registerbutton_text"
         android:textColor="#ffffff"
+        android:onClick="buttonClicked"
         android:textSize="16sp" />
 
 </RelativeLayout>

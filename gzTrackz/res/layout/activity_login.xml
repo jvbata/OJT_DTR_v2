@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/background" >
+    android:layout_height="match_parent" >
 
     <ImageView
         android:id="@+id/iv_gzlogo"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/layout_spacing"
-        android:layout_marginLeft="@dimen/layout_spacing"
-        android:layout_marginRight="@dimen/layout_spacing"
+        android:layout_margin="@dimen/layout_spacing"
         android:contentDescription="@string/login_gzlogo_description"
         android:src="@drawable/gz" />
 
@@ -37,39 +34,42 @@
         android:layout_marginRight="@dimen/layout_spacing"
         android:hint="@string/login_password_hint"
         android:inputType="textPassword"
-        android:paddingLeft="10dp"
         android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/tv_register"
+        android:id="@+id/tv_registerBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/et_password"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:text="@string/login_register_text"
+        android:clickable="true"
+        android:onClick="buttonClicked"
         android:textSize="24sp" />
 
     <Button
-        android:id="@+id/logInButton"
+        android:id="@+id/btn_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_below="@id/et_password"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_toRightOf="@id/tv_register"
+        android:layout_toRightOf="@id/tv_registerBtn"
+        android:layout_toEndOf="@id/tv_registerBtn"
         android:text="@string/login_login_text"
         android:textColor="#ffffff"
+        android:onClick="buttonClicked"
         android:textSize="24sp" />
 
     <ImageView
         android:id="@+id/iv_poweredby"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tv_register"
+        android:layout_below="@id/tv_registerBtn"
         android:layout_margin="@dimen/layout_margin"
-        android:alpha=".70"
         android:contentDescription="@string/login_poweredby_description"
         android:src="@drawable/powered" />
 
