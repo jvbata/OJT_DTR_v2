@@ -1,8 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-   >
+    android:layout_height="match_parent" >
 
     <TextView
         android:id="@+id/tv_standupPrevious"
@@ -20,7 +19,6 @@
         android:layout_marginBottom="@dimen/layout_spacing"
         android:layout_marginLeft="@dimen/layout_spacing"
         android:layout_marginRight="@dimen/layout_spacing"
-        android:gravity="top|left"
         android:inputType="textMultiLine|textNoSuggestions"
         android:lines="@integer/standups_edittext_max_lines"
         android:scrollbars="vertical" >

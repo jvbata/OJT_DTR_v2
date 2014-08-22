@@ -12,7 +12,6 @@
     <string name="loginactivity_login">login</string>
     <string name="loginactivity_register">register</string>
     
-    
     <string name="login_gzlogo_description">GZ logo</string>
     <string name="login_poweredby_description">Global Zeal</string>
     <string name="login_email_hint">Email</string>
@@ -39,4 +38,15 @@
     <string name="viewstandups_heading_problemsencountered">Problems Encountered</string>
     <string name="viewstandups_sample_text">The quick brown fox jump over the lazy dog. This is a sample text</string>
 
+    <string name="fragment_home_sample_name">Bruce Wayne</string>
+    <string name="fragment_home_sample_time">03:16</string>
+    <string name="fragment_home_sample_AMPM_time">AM</string>
+    <string name="fragment_home_sample_date">Friday, February 17, 2014</string>
+    <string name="fragment_home_button_description">Log Button</string>
+    
+    <string name="history_list_item_sample_date">February 17, 2014</string>
+    <string name="history_list_item_sample_time">03:16 PM \- 06:16 PM</string>
+    <string name="history_list_item_sample_location">Sesame Street</string>
+    <string name="history_list_item_sample_workhours">3 hours</string>
+    
 </resources>

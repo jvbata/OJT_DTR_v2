@@ -47,9 +47,9 @@ public class StandUpDateAdapter extends BaseAdapter {
 			convertView = inflater.inflate(R.layout.standups_list_item, parent,false);
 		}
 		
-		TextView standupDate = (TextView) convertView.findViewById(R.id.standupsdate);
-		TextView standupPreviewMessage = (TextView) convertView.findViewById(R.id.standupspreviewmessage);
-		TextView standupTime = (TextView) convertView.findViewById(R.id.standupstime);
+		TextView standupDate = (TextView) convertView.findViewById(R.id.history_list_item_date);
+		TextView standupPreviewMessage = (TextView) convertView.findViewById(R.id.history_list_item_location);
+		TextView standupTime = (TextView) convertView.findViewById(R.id.history_list_item_time);
 		
 		standupDate.setText(resultList.get(position).getDate().substring(0,11));
 		standupTime.setText(resultList.get(position).getDate().substring(11));

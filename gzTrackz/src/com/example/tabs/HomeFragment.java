@@ -107,22 +107,22 @@ public class HomeFragment extends Fragment {
 			Bundle savedInstanceState) {
 		View rootView = inflater.inflate(R.layout.fragment_home, container, false);
 		prefs = getActivity().getSharedPreferences(PREFERENCE_NAME, Context.MODE_PRIVATE);
-		TextView timeTxt = (TextView) rootView.findViewById(R.id.timeTxt);
-		TextView dateTxt = (TextView) rootView.findViewById(R.id.dateTxt);
-		TextView nameTxt = (TextView) rootView.findViewById(R.id.name);
+		TextView timeTxt = (TextView) rootView.findViewById(R.id.tv_fragment_home_time);
+		TextView dateTxt = (TextView) rootView.findViewById(R.id.tv_fragment_home_date);
+		TextView nameTxt = (TextView) rootView.findViewById(R.id.tv_fragment_home_username);
 		Typeface tf = Typeface.createFromAsset(getActivity().getAssets(), "Walkway_Bold.ttf");
 		Typeface tf2 = Typeface.createFromAsset(getActivity().getAssets(), "CODE Bold.otf");
 		Typeface tf3 = Typeface.createFromAsset(getActivity().getAssets(), "Nexa Light.otf");
 		timeTxt.setTypeface(tf);
 		dateTxt.setTypeface(tf2);
 		nameTxt.setTypeface(tf3);
-		timeLogBTN = (ImageView) rootView.findViewById(R.id.timeLogBTN);
+		timeLogBTN = (ImageView) rootView.findViewById(R.id.iv_fragment_home_timeintimeout);
 		email = prefs.getString(EMAIL, null);
-		nameTXT = (TextView) rootView.findViewById(R.id.name);
+		nameTXT = (TextView) rootView.findViewById(R.id.tv_fragment_home_username);
 		nameTXT.setText("Hello, " + prefs.getString(FNAME,null) + "!");
-		timeTXT = (TextView) rootView.findViewById(R.id.timeTxt);
-		dateTXT = (TextView) rootView.findViewById(R.id.dateTxt);
-		amPmTXT = (TextView) rootView.findViewById(R.id.ampmTxt);
+		timeTXT = (TextView) rootView.findViewById(R.id.tv_fragment_home_time);
+		dateTXT = (TextView) rootView.findViewById(R.id.tv_fragment_home_date);
+		amPmTXT = (TextView) rootView.findViewById(R.id.tv_fragment_home_AmPm);
 		
 		getActivity().registerReceiver(timeReceiver,new IntentFilter("gztrackz.update.time"));
 		timeTXT.setText(hourDisplay + ":" + minutesDisplay);
