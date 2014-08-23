@@ -1,4 +1,4 @@
-package com.example.tabs;
+package com.gztracks.tabs;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,9 +39,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.gztrackz.R;
-import com.example.gztrackz.StandUpsDialog;
-import com.example.gztrackz.TimeStampQueryDialog;
-import com.example.gztrackz.ViewStandupActivity;
+import com.gztracks.gztracks.StandUpsDialog;
+import com.gztracks.gztracks.TimeStampQueryDialog;
+import com.gztracks.gztracks.ViewStandupActivity;
 
 import database_classes.DB_Standups;
 

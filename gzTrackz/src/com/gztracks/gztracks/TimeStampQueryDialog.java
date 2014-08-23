@@ -1,6 +1,8 @@
-package com.example.gztrackz;
+package com.gztracks.gztracks;
 
 import java.util.ArrayList;
+
+import com.example.gztrackz.R;
 
 import android.os.Bundle;
 import android.app.Activity;

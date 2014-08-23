@@ -1,4 +1,4 @@
-package com.example.login;
+package com.gztracks.login_or_register;
 
 import java.util.StringTokenizer;
 

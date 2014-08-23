@@ -1,4 +1,4 @@
-package com.example.utilities;
+package com.gztracks.utilities;
 
 public class SharedPrefUtil {
 	

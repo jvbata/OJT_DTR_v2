@@ -27,24 +27,13 @@
         android:layout_below="@id/tv_fragment_home_date"
         android:text="@string/fragment_home_sample_time"
         android:textColor="#FFFFFF"
-        android:textSize="90sp" />
-
-    <TextView
-        android:id="@+id/tv_fragment_home_AmPm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tv_fragment_home_date"
-        android:layout_toRightOf="@id/tv_fragment_home_time"
-        android:text="@string/fragment_home_sample_AMPM_time"
-        android:textColor="#FFFFFF"
-        android:textSize="19sp" />
+        android:textSize="50sp" />
 
     <ImageView
         android:id="@+id/iv_fragment_home_timeintimeout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_fragment_home_time"
-        android:contentDescription="@string/fragment_home_button_description"
-        android:src="@drawable/btn_timein_timeout" />
+        android:contentDescription="@string/fragment_home_button_description" />
 
 </RelativeLayout>

@@ -1,4 +1,4 @@
-package com.example.login;
+package com.gztracks.login_or_register;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,9 +15,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.gztrackz.R;
-import com.example.gztrackz.TabsManager;
-import com.example.utilities.FontAndToastUtils;
-import com.example.utilities.SharedPrefUtil;
+import com.gztracks.gztracks.TabsManager;
+import com.gztracks.utilities.FontAndToastUtils;
+import com.gztracks.utilities.SharedPrefUtil;
 
 public class Activity_Login extends Activity {
 
@@ -122,6 +122,7 @@ public class Activity_Login extends Activity {
 
 		// login successful
 		if (login) {
+			
 			Intent i = new Intent(context, TabsManager.class);
 			i.putExtra("email", prefs.getString(SharedPrefUtil.KEY_EMAIL, null));
 

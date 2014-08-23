@@ -1,4 +1,4 @@
-package com.example.login;
+package com.gztracks.login_or_register;
 
 import java.util.StringTokenizer;
 
@@ -9,7 +9,7 @@ import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONObject;
 
-import com.example.utilities.SharedPrefUtil;
+import com.gztracks.utilities.SharedPrefUtil;
 
 import android.app.ProgressDialog;
 import android.content.Context;

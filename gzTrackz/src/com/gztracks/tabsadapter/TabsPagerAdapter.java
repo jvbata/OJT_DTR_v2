@@ -1,4 +1,4 @@
-package com.example.tabsadapter;
+package com.gztracks.tabsadapter;
 
 
 
@@ -6,9 +6,10 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.example.tabs.HomeFragment;
-import com.example.tabs.StandupsFragment;
-import com.example.tabs.TimestampsFragment;
+import com.gztracks.home.Fragment_Home;
+import com.gztracks.home.HomeFragment;
+import com.gztracks.tabs.StandupsFragment;
+import com.gztracks.tabs.TimestampsFragment;
 
 public class TabsPagerAdapter extends FragmentPagerAdapter {
 
@@ -25,7 +26,7 @@ public class TabsPagerAdapter extends FragmentPagerAdapter {
 			return new TimestampsFragment();
 		case 1:
 			// Games fragment activity			
-			return new HomeFragment();
+			return new Fragment_Home();
 		case 2:
 			// Movies fragment activity
 			return new StandupsFragment();

@@ -1,4 +1,4 @@
-package com.example.tabs;
+package com.gztracks.tabs;
 
 import gps_classes.GZ_Task_Geocode;
 
@@ -41,8 +41,8 @@ import android.widget.Toast;
 
 
 import com.example.gztrackz.R;
-import com.example.gztrackz.StandUpsDialog;
-import com.example.gztrackz.TimeStampQueryDialog;
+import com.gztracks.gztracks.StandUpsDialog;
+import com.gztracks.gztracks.TimeStampQueryDialog;
 
 import database_classes.DB_User_Timelog;
 

@@ -1,4 +1,4 @@
-package com.example.gztrackz;
+package com.gztracks.gztracks;
 
 import java.util.StringTokenizer;
 
@@ -8,7 +8,8 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.http.impl.client.DefaultHttpClient;
 
-import com.example.tabs.StandupsFragment;
+import com.example.gztrackz.R;
+import com.gztracks.tabs.StandupsFragment;
 
 import android.os.AsyncTask;
 import android.os.Bundle;

@@ -1,4 +1,6 @@
-package com.example.gztrackz;
+package com.gztracks.gztracks;
+
+import com.example.gztrackz.R;
 
 import android.app.Activity;
 import android.content.Context;

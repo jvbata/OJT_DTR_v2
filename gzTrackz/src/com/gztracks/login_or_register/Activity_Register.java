@@ -1,4 +1,4 @@
-package com.example.login;
+package com.gztracks.login_or_register;
 
 import android.app.Activity;
 import android.content.Context;

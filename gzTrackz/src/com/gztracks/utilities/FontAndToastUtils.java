@@ -1,4 +1,4 @@
-package com.example.utilities;
+package com.gztracks.utilities;
 
 import android.content.Context;
 import android.graphics.Typeface;
