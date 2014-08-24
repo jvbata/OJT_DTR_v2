@@ -5,7 +5,6 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import com.gztracks.home.Fragment_Home;
-import com.gztracks.home.HomeFragment;
 import com.gztracks.tabs.StandupsFragment;
 import com.gztracks.tabs.TimestampsFragment;
 

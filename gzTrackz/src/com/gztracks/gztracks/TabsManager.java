@@ -16,11 +16,10 @@ import android.view.MenuItem;
 
 import com.example.gztrackz.R;
 import com.gztracks.home.GZ_ViewPagerPageListener;
-import com.gztracks.home.HomeFragment.MyInterface;
 import com.gztracks.tabsadapter.TabsPagerAdapter;
 
 public class TabsManager extends FragmentActivity implements
-		ActionBar.TabListener, MyInterface {
+		ActionBar.TabListener {
 
 	private ViewPager viewPager;
 	private TabsPagerAdapter mAdapter;
@@ -125,10 +124,4 @@ public class TabsManager extends FragmentActivity implements
 	@Override
 	public void onTabUnselected(Tab tab, FragmentTransaction ft) {
 	}
-
-	@Override
-	public void buttonClicked(boolean timeIn) {
-
-	}
-
 }

@@ -61,8 +61,8 @@ public final class R {
         public static final int action_logout=0x7f0b003a;
         public static final int action_settings=0x7f0b0039;
         public static final int btn_login=0x7f0b0004;
+        public static final int btn_record_standup=0x7f0b001b;
         public static final int btn_register=0x7f0b0011;
-        public static final int btn_standupDone=0x7f0b001b;
         public static final int dateTextView=0x7f0b0020;
         public static final int daySpinner=0x7f0b0032;
         public static final int et_confirmPassword=0x7f0b0010;
@@ -106,7 +106,7 @@ public final class R {
         public static final int tv_registerBtn=0x7f0b0003;
         public static final int tv_registerEmail=0x7f0b000b;
         public static final int tv_standupPrevious=0x7f0b000d;
-        public static final int tv_standupProblems=0x7f0b0019;
+        public static final int tv_standupProblem=0x7f0b0019;
         public static final int tv_standupTodo=0x7f0b0017;
         public static final int tv_viewstandup_heading_previoustask=0x7f0b0025;
         public static final int tv_viewstandup_heading_problems=0x7f0b0029;
@@ -125,7 +125,7 @@ public final class R {
         public static final int activity_login=0x7f030000;
         public static final int activity_register=0x7f030001;
         public static final int fragment_home=0x7f030002;
-        public static final int fragment_stand_ups=0x7f030003;
+        public static final int fragment_record_standups=0x7f030003;
         public static final int fragment_standups=0x7f030004;
         public static final int fragment_timestamp=0x7f030005;
         public static final int fragment_view_stand_ups=0x7f030006;

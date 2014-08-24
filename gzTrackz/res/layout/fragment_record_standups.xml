@@ -43,13 +43,13 @@
         android:layout_marginBottom="@dimen/layout_spacing"
         android:layout_marginLeft="@dimen/layout_spacing"
         android:layout_marginRight="@dimen/layout_spacing"
-        android:gravity="top|left"
+        android:gravity="top|start"
         android:inputType="textMultiLine|textNoSuggestions"
         android:lines="@integer/standups_edittext_max_lines"
         android:scrollbars="vertical" />
 
     <TextView
-        android:id="@+id/tv_standupProblems"
+        android:id="@+id/tv_standupProblem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/et_standupTodo"
@@ -63,17 +63,17 @@
         android:id="@+id/et_standupProblem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tv_standupProblems"
+        android:layout_below="@id/tv_standupProblem"
         android:layout_marginBottom="@dimen/layout_spacing"
         android:layout_marginLeft="@dimen/layout_spacing"
         android:layout_marginRight="@dimen/layout_spacing"
-        android:gravity="top|left"
+        android:gravity="top|start"
         android:inputType="textMultiLine|textNoSuggestions"
         android:lines="@integer/standups_edittext_max_lines"
         android:scrollbars="vertical" />
 
     <Button
-        android:id="@+id/btn_standupDone"
+        android:id="@+id/btn_record_standup"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_below="@id/et_standupProblem"

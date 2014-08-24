@@ -33,12 +33,12 @@ public class StandUpsDialog extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.fragment_stand_ups);
+		setContentView(R.layout.fragment_record_standups);
 		email = getIntent().getStringExtra("email");
 		standup_yTXT = (EditText) findViewById(R.id.et_standupPrevious);
 		standup_todoTXT = (EditText) findViewById(R.id.et_standupTodo);
 		problemTXT = (EditText) findViewById(R.id.et_standupProblem);
-		done = (Button) findViewById(R.id.btn_standupDone);
+		done = (Button) findViewById(R.id.btn_record_standup);
 		context = this;
 		done.setOnClickListener(new View.OnClickListener() {			
 			@Override
