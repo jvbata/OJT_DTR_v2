@@ -1,4 +1,4 @@
-package com.gztracks.login_or_register;
+package com.gztracks.register;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.gztrackz.R;
+import com.gztracks.login.Activity_Login;
 
 public class Activity_Register extends Activity {
 

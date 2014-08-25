@@ -18,7 +18,7 @@
         android:label="@string/app_name"
         android:theme="@style/GZ_Theme" >
         <activity
-            android:name="com.gztracks.login_or_register.Activity_Login"
+            android:name="com.gztracks.login.Activity_Login"
             android:label="@string/app_name"
             android:theme="@style/fullscreen" >
             <intent-filter>
@@ -27,7 +27,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.gztracks.login_or_register.Activity_Register"
+            android:name="com.gztracks.register.Activity_Register"
             android:label="@string/app_name"
             android:theme="@style/fullscreen" >
         </activity>

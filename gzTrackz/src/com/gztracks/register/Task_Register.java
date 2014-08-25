@@ -1,4 +1,4 @@
-package com.gztracks.login_or_register;
+package com.gztracks.register;
 
 import java.util.StringTokenizer;
 

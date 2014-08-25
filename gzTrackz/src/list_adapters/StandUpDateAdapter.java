@@ -44,7 +44,7 @@ public class StandUpDateAdapter extends BaseAdapter {
 		
 		if(convertView == null){			
 			LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-			convertView = inflater.inflate(R.layout.standups_list_item, parent,false);
+			convertView = inflater.inflate(R.layout.fragment_view_timelog_list_item, parent,false);
 		}
 		
 		TextView standupDate = (TextView) convertView.findViewById(R.id.history_list_item_date);

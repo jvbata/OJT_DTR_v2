@@ -1,4 +1,4 @@
-package com.gztracks.login_or_register;
+package com.gztracks.login;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import com.example.gztrackz.R;
 import com.gztracks.gztracks.TabsManager;
+import com.gztracks.register.Activity_Register;
 import com.gztracks.utilities.FontAndToastUtils;
 import com.gztracks.utilities.SharedPrefUtil;
 

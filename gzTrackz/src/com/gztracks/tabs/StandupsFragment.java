@@ -35,7 +35,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.example.gztrackz.R;
-import com.gztracks.gztracks.TimeStampQueryDialog;
 import com.gztracks.gztracks.ViewStandupActivity;
 
 import database_classes.DB_Standups;
@@ -110,8 +109,7 @@ public class StandupsFragment extends Fragment {
 		historyQuery.setOnClickListener(new View.OnClickListener() {			
 			@Override
 			public void onClick(View arg0) {
-				Intent i = new Intent(getActivity(),TimeStampQueryDialog.class);
-				startActivityForResult(i,2);			
+					
 			}
 		});
 			

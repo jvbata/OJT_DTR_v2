@@ -38,7 +38,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.gztrackz.R;
-import com.gztracks.gztracks.TimeStampQueryDialog;
 
 import database_classes.DB_User_Timelog;
 
@@ -108,8 +107,7 @@ public class TimestampsFragment extends Fragment {
 		queryBTN.setOnClickListener(new View.OnClickListener() {			
 			@Override
 			public void onClick(View arg0) {
-				Intent i = new Intent(getActivity(),TimeStampQueryDialog.class);
-				startActivityForResult(i,1);
+			
 			}
 		});
 		
